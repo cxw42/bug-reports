@@ -1,0 +1,16 @@
+{
+  "name": "_test",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Click the browser-action button to toggle the popup",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "open popup"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
